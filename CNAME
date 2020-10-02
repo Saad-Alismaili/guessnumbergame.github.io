@@ -1,1 +1,5 @@
-guessnumbergame.com
+$ dig WWW.guessnumbergame.COM +nostats +nocomments +nocmd
+    > ;WWW.guessnumbergame.COM.                     IN      A
+    > WWW.guessnumbergame.COM.              3592    IN      CNAME   guessnumbergame.github.io.
+    > guessnumbergame.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
