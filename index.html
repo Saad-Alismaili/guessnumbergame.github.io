@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>لعبة تخمين الرقم الصحيح</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="numbers.png">
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <img src="numbers.png" alt="photo" width="100px" height="60px">
+        <a class="navbar-brand" href="#">لعبة تخمين الرقم الصحيح</a>
+    </nav>
+    <main>
+        <h1 class="banner p-3">1.2.3.</h1>
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder=" ادخل تخمين رقمك بين 0 إلى 100&nbsp;&nbsp; &nbsp;">
+        </div>
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+        <button type="button" id="restart-game" class="btn btn-lg btn-warning">!إعادة</button>
+        <button type="button" id="number-submit" class="btn btn-lg btn-success">!تحقق</button>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </main>
+    <div class="contact">
+        <a href="mailto:codingandgeology@gmail.com">Contact the creator, تواصل مع المنشئ</a>
+    </div>
+</body>
+
+</html>
